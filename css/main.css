@@ -102,7 +102,9 @@ body {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );*/
     
+    
 }
+
 .item-redes-2 {
     height: 8px;
     width: 7px;
@@ -181,9 +183,9 @@ body {
     text-decoration: none;
     color: #dce1ac;
     
-    
-    
+    transform: scale(1.4);
 }
+
 
 .referidos1 :link{
     color: #e1b53d;;
@@ -206,6 +208,10 @@ body {
     -webkit-backdrop-filter: blur( 7.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
     
 }
 .ref-productos {
@@ -219,6 +225,10 @@ body {
     -webkit-backdrop-filter: blur( 7.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
     
 }
 .ref-contacto {
@@ -232,6 +242,10 @@ body {
     -webkit-backdrop-filter: blur( 7.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
 }
 .ref-blog {
     
@@ -244,6 +258,10 @@ body {
     -webkit-backdrop-filter: blur( 7.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
 }
 
 #contenedor {
@@ -308,8 +326,15 @@ body {
     justify-content: center;
     align-items: center;
     
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
     
     
+}
+
+.imagen1:hover{
+    transform: scale(2);
 }
 .oferta-publi {
     width: 200px;
@@ -346,7 +371,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     text-decoration: none;
-    border: solid 5px  #0f0f10;
+    border: solid 5px  #000000;
     border-radius: 8px;
     list-style-type: circle;
     color: #dce1ac;
@@ -354,9 +379,12 @@ body {
     margin-left: -30px;
 }
 
+
+
 section div ul a:hover {
     text-decoration: none;
     color: #dce1ac;
+    
 }
 
 section div ul :link {
@@ -618,7 +646,7 @@ section div ul :visited {
     .img-sub { 
         transform: translate(300px, -600px);
         margin-bottom: -500px;
-        margin-left: 500px;
+        margin-left: 400px;
     }
     
     .imagen1 {
@@ -656,7 +684,7 @@ section div ul :visited {
     }
 
     #lista1 {
-        font-size: large;
+        font-size: 2em;
     }
 
 }
