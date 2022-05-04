@@ -1,0 +1,662 @@
+body {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23555555' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23555555'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+
+    
+
+    display: grid;
+    grid-template-areas:
+    " header header"
+    " header nav"
+    " main main"
+    " footer footer"
+    ;
+
+   
+
+}
+/*header, nav, main, footer {
+    border: solid salmon 5px;
+    
+}*/
+
+.encabezado {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23555555' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23555555'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    display: grid;
+
+    grid-template-columns: 80px 100px 100px;
+    grid-template-rows: 150px 100px;
+    grid-row-gap: 0px;
+    
+
+    
+    margin: 10px;
+}
+
+.titulo {
+    
+    color: #878588;
+    font-weight: 900;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+
+    top: 90px;
+
+    border: 12px #3d3b46;
+    border-radius: 12px;
+    border-style: double;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-right: auto;
+    margin-top: 5px;
+    
+    height:40px;
+
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/106/276/small/geometric-black-and-gold-background-free-vector.jpg)
+}
+.search {
+    border:solid 8px #3d3b46;
+    border-radius: 12px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 30px;
+    width: 40px;
+    transform: translate(-80px, 120px);
+    
+    
+}
+
+.redes {
+    
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: auto;
+    margin-left: 20px;
+    height: max-content;
+    width: max-content;
+    transform: translate(10px, 0px);
+    
+}
+.item-redes-1 {
+
+
+    height: 8px;
+    width: 7px;
+    margin:  7px;
+    padding: 5px;
+    /*background: rgba( 147, 116, 33, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+    
+}
+.item-redes-2 {
+    height: 8px;
+    width: 7px;
+    margin: 7px;
+    padding: 5px;
+    /*background: rgba( 147, 116, 33, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+    
+}
+.item-redes-3 {
+    height: 8px;
+    width: 7px;
+    margin:  7px;
+    padding: 5px;
+    /*background: rgba( 147, 116, 33, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+}
+.item-redes-4 {
+    height: 8px;
+    width: 7px;
+    margin:  7px;
+    padding: 5px;
+    /*background: rgba( 147, 116, 33, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+}
+.imagen-icono {
+    border:solid 5px #3d3b46;
+    border-radius: 360px;
+    
+    height: 60px;
+    width: 60px; 
+    padding: 2px;
+    margin-bottom: 20px; 
+    
+    text-align: center;
+        
+    
+    
+}
+
+.referidos1{
+    text-align: left;
+    height: 70px;
+    
+    
+    
+}
+.referidos1 p {
+    
+    border-radius: 12px;
+    background-image: url(https://img.freepik.com/vector-gratis/escalas-tecno-fondo-placas-metal-negro-decoracion-traceria-abstraccion-oscura_79145-563.jpg?size=626&ext=jpg);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    
+
+}
+
+.referidos1 a:hover{
+    
+    text-decoration: none;
+    color: #dce1ac;
+    
+    
+    
+}
+
+.referidos1 :link{
+    color: #e1b53d;;
+}
+
+.referidos1 :visited{
+    color: #e1b53d;;
+
+}
+
+.ref-home {
+    
+    
+    padding: 5px; 
+    margin: 5px;
+    padding: 5px;
+    background: rgba( 147, 116, 33, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+.ref-productos {
+    
+    padding: 5px;
+    margin: 5px;
+    padding: 5px;
+    background: rgba( 147, 116, 33, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+.ref-contacto {
+    
+    padding: 5px;
+    margin: 5px;
+    padding: 5px;
+    background: rgba( 147, 116, 33, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.ref-blog {
+    
+    padding: 5px;
+    margin: 5px;
+    padding: 5px;
+    background: rgba( 147, 116, 33, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#contenedor {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 850px ;
+    
+     
+}
+
+.texto {
+    
+    padding: 5px;
+    background: rgba( 147, 116, 33, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    font-size: 1,9em;
+    padding: auto;
+    margin-top: -5px;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: auto;
+    color: #e1b53d;
+    height: 640px;
+    width: 185px;
+    font-weight: 600;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    border:solid 4px #937421;
+    border-radius: 20px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.subtitulo {
+    
+    font-size: 1,4rem;
+    font-family: 'Anybody', cursive;
+    color: #e1b53d;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen1 {
+    width: 200px;
+    height: 200px;
+    
+    padding: 0px 10px 0px 0px;
+    margin: 0px 10px 0px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.oferta-publi {
+    width: 200px;
+    height: 280px;
+    padding: 5px;
+    border: solid 8px;
+    border-radius: 20px;
+    background: rgba( 147, 116, 33, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    align-items: center;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    transform: translate(-50px, -80px);
+    
+    
+}
+
+
+.img-sub {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+#lista1 {
+    
+    
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    border: solid 5px  #0f0f10;
+    border-radius: 8px;
+    list-style-type: circle;
+    color: #dce1ac;
+    justify-content: center;
+    margin-left: -30px;
+}
+
+section div ul a:hover {
+    text-decoration: none;
+    color: #dce1ac;
+}
+
+section div ul :link {
+    color: #e1b53d;
+}
+
+section div ul :visited {
+    color: #e1b53d;
+}
+
+#publicidad {
+    background-image: url(https://elchapuzasinformatico.com/wp-content/uploads/2017/12/Gaming-Days-PcComponentes.jpg);
+    
+    height: 180px;
+    width: 2000px;
+    
+    padding: 10px;
+    margin: 5px 100px 0px -50px;
+    
+    border:solid 8px #17151c;
+    border-radius: 12px;
+    margin-left: -630px;
+}
+
+#publicidad2 {
+   background-image: url(https://tienda.redcomputer.es//img/cms/Home/banners-seo2-2.jpg);
+
+    padding: 5px;
+    margin: 5px;
+    height: 180px;
+    width: 2000px;
+    
+    border: solid 5px #17151c;
+
+    margin-left: -265px;
+}
+
+.separador {
+    
+    height: 15px;
+    width: 2100px;
+    
+    border: solid 3px #000000;
+    border-radius: 12px;
+    background-image: url(https://img.freepik.com/vector-gratis/escalas-tecno-fondo-placas-metal-negro-decoracion-traceria-abstraccion-oscura_79145-563.jpg?size=626&ext=jpg);
+    
+}
+
+.separador1 {
+    
+    height: 50px;
+    width: 2200px;
+      
+    
+    border: solid 5px #000000;
+    border-radius: 12px;
+    background-image: url(https://img.freepik.com/vector-gratis/escalas-tecno-fondo-placas-metal-negro-decoracion-traceria-abstraccion-oscura_79145-563.jpg?size=626&ext=jpg);
+
+    margin-left: -265px;
+}
+
+.separador2 {
+    
+    height: 50px;
+    width: 2200px;
+    
+    
+    border: solid 5px #000000;
+    border-radius: 12px;
+    background-image: url(https://img.freepik.com/vector-gratis/escalas-tecno-fondo-placas-metal-negro-decoracion-traceria-abstraccion-oscura_79145-563.jpg?size=626&ext=jpg);
+    margin-left: -265px;
+}
+
+
+@media screen and (min-width: 768px){
+
+    .encabezado {
+        grid-template-columns: 100px 100px 150px;
+        grid-template-rows: 150px 100px;
+    } 
+    
+    .redes {
+        margin-left: 150px;
+        height: max-content;
+        
+        margin-top: 50px;
+        text-align: right;
+        transform: translate(10px, 0px);
+        
+    }
+    .item-redes-1 {
+
+
+        margin: 10px;
+        /*background: rgba( 147, 116, 33, 0.2 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 7.5px );
+        -webkit-backdrop-filter: blur( 7.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+        
+    }
+    .item-redes-2 {
+        margin: 10px;
+        
+        /*background: rgba( 147, 116, 33, 0.2 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 7.5px );
+        -webkit-backdrop-filter: blur( 7.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+        
+    }
+    .item-redes-3 {
+        margin: 10px;
+        
+        /*background: rgba( 147, 116, 33, 0.2 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 7.5px );
+        -webkit-backdrop-filter: blur( 7.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+    }
+    .item-redes-4 {
+        margin: 10px;
+        
+        
+        /*background: rgba( 147, 116, 33, 0.2 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 7.5px );
+        -webkit-backdrop-filter: blur( 7.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+    }
+
+    
+    .search {
+        margin-left: 100px;
+        
+    }
+    .texto{
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 220px;
+        width: 270px;
+        height: 500px;
+        transform: translate(-140px, 0px);
+    }
+
+    #contenedor {
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 100px 700px ;
+        
+    }
+    .img-sub { 
+        transform: translate(0px, -100px);
+        margin-bottom: -120px;
+        height: 200px;
+        width: 200px;
+    }
+    
+    .imagen1 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .oferta-publi {
+        height: 260px;
+        width: 200px;
+    }
+
+    #lista1 {
+    
+    
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+
+    #contenedor {
+        grid-template-columns: 600px 600px 600px;
+    }
+    .encabezado {
+        grid-template-columns: 500px 500px 500px;
+        grid-template-rows: 1fr .2fr;
+    }
+
+
+    .redes {
+        margin:5px;
+        
+        
+        flex-direction: row;
+        
+    }
+    .search {
+        margin-left: 100px;
+        width: max-content;
+        
+    }
+
+    .texto{
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 300px;
+        height: 400px;
+        transform: translate(100px, 30px);
+    }
+    
+    .img-sub { 
+        transform: translate(-100px, -50px);
+        margin-bottom: 30px;
+        margin-left: 300px;
+    } 
+    .imagen1 {
+        height: 120px;
+        width: 120px;
+    }
+
+    .oferta-publi {
+        height: 200px;
+        width: 140px;
+    }
+
+    #lista1 {
+        font-size: small;
+    }
+
+     
+}
+
+@media screen and (min-width: 1440px){
+
+    .encabezado {
+        grid-template-columns: 1000px 1000px 1000px;
+        grid-template-rows: 1fr .2fr;
+    }
+
+    .search {
+        margin-left: -70px;
+    }
+
+    .redes {
+        margin-left: -500px;
+    }
+
+    .texto{
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 700px;
+        width: 400px;
+        height: 300px;
+        transform: translate(100px, 30px);
+    }  
+
+    .img-sub { 
+        transform: translate(300px, -600px);
+        margin-bottom: -500px;
+        margin-left: 500px;
+    }
+    
+    .imagen1 {
+        height: 250px;
+        width: 240px;
+    }
+
+    .oferta-publi {
+        height: 320px;
+        width: 260px;
+    }
+
+    #publicidad {
+        
+      width: 2400px;
+      
+    }
+    .separador1 {
+        
+        width: 4000px;
+        margin-left: -270px;
+    }
+
+    .separador2 {
+    
+        
+        width: 4000px;
+        margin-left: -270px;
+        
+    }
+    
+    #publicidad2{
+        width: 4000px;
+        margin-left: -270px;
+    }
+
+    #lista1 {
+        font-size: large;
+    }
+
+}

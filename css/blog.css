@@ -1,0 +1,220 @@
+body {
+    
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23555555' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23555555'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+
+    
+
+    display: grid;
+    grid-template-areas:
+    " header "
+    " main main "
+    " footer footer"
+    ;
+
+    
+}
+
+.titulo {
+    font-family: "Anybody";
+    font-size: 1,3em;
+    text-decoration: underline;
+    color: #937421;
+    text-align: left;
+    margin-left: 100px;
+    
+    
+}
+
+.texto {
+    font-family: "Poppins";
+    font-size: 1em;
+    
+    color: #937421;
+    
+    
+    
+    width: 300px;
+    height: max-content;
+    
+    
+}
+
+.texto p {
+    
+    
+    
+    border: solid 5px #000000;
+    border-radius: 12px;
+    
+    
+    text-align: center;
+}
+
+iframe {
+    
+    height: 300px;
+    width: 300px;
+    border: solid 5px #000000;
+    border-radius: 12px;
+    transform: translate(0px,-300px);
+}
+.ytvideo1 {
+    text-align: left;
+    
+}
+
+.p {
+    width: 100px;
+    height: 400px;
+}
+
+.hr {
+   
+    height: 15px;
+    
+    border: solid 3px #000000;
+    border-radius: 12px;
+    background-image: url(https://img.freepik.com/vector-gratis/escalas-tecno-fondo-placas-metal-negro-decoracion-traceria-abstraccion-oscura_79145-563.jpg?size=626&ext=jpg)
+    
+}
+
+#referidos {
+    text-decoration: none;
+    
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+
+    color: #000000;
+
+
+}
+
+.referidos1{
+    text-align: left;
+}
+.referidos1 p {
+    border: solid 5px #000000;
+    border-radius: 12px;
+    background-image: url(https://img.freepik.com/vector-gratis/escalas-tecno-fondo-placas-metal-negro-decoracion-traceria-abstraccion-oscura_79145-563.jpg?size=626&ext=jpg)
+
+}
+
+.referidos1 a:hover{
+    
+    text-decoration: none;
+    color: aquamarine;
+    
+    
+}
+
+.referidos1 :link{
+    color: #937421;
+}
+
+.referidos1 :visited{
+    color: #937421;
+
+}
+
+.ref-home {
+    
+    
+    padding: 5px 0px 0px 30px;
+    margin: 5px;
+}
+.ref-productos {
+    
+    padding: 5px;
+    margin: 5px;
+    
+}
+.ref-contacto {
+    
+    padding: 5px;
+    margin: 5px;
+    
+}
+.ref-blog {
+    
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+@media screen and (min-width: 768px){
+    .titulo{
+        margin-left: 340px;
+    }
+    
+    .texto{
+        margin-left: 120px;
+        width: 500px;
+        
+    
+    }
+    
+
+    .ytvideo1 {
+        margin-left: 220px;
+        transform: translate(-150px,-50px);
+    }
+    
+    iframe {
+        height: 400px;
+        width: 600px;
+        
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .titulo{
+        margin-left: 450px;
+    }
+    
+    .texto{
+        margin-left: 250px;
+    
+    }
+    
+
+    .ytvideo1 {
+        margin-left: 250px;
+        transform: translate(-50px,-50px);
+    }
+
+}
+@media screen and (min-width: 1440px){
+    .titulo{
+        margin-left: 45vh;
+    }
+    
+    .texto{
+        margin-left: 30vh;
+    
+    }
+    
+
+    .ytvideo1 {
+        margin-left: 50vh;
+        transform: translate(-320px,-50px)
+    }
+
+}
+
+@media screen and (min-width: 1820px){
+    .titulo{
+        margin-left: 80vh;
+    }
+    
+    .texto{
+        margin-left: 60vh;
+    
+    }
+    
+
+    .ytvideo1 {
+        margin-left: 50vh;
+        transform: translate(10px,-50px)
+    }
+}

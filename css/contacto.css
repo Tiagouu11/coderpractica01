@@ -1,0 +1,139 @@
+body {
+    background-color: #17151c;
+}
+
+#titulo {
+    color: #ffe4c4;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .form-register {
+    width: 400px;
+    background: #17151c;;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #937421;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #937421;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+#referidos {
+    text-decoration: none;
+    
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+
+    color: #000000;
+
+
+}
+.referidos1 p {
+    border: solid 5px #000000;
+    border-radius: 12px;
+    background-image: url(https://img.freepik.com/vector-gratis/escalas-tecno-fondo-placas-metal-negro-decoracion-traceria-abstraccion-oscura_79145-563.jpg?size=626&ext=jpg)
+
+}
+
+.referidos1 a:hover{
+    
+    text-decoration: none;
+    color: aquamarine;
+    
+    
+}
+
+.referidos1 :link{
+    color: #937421;
+}
+
+.referidos1 :visited{
+    color: #937421;
+
+}
+
+.ref-home {
+    
+    
+    padding: 15px 0px 0px 30px;
+    margin: 15px;
+}
+.ref-productos {
+    
+    padding: 15px;
+    margin: 15px;
+    
+}
+.ref-contacto {
+    
+    padding: 15px;
+    margin: 15px;
+    
+}
+.ref-blog {
+    
+    padding: 15px;
+    margin: 15px;
+    
+}
+
+.hr {
+    height: 15px;
+    
+    border: solid 3px #000000;
+    border-radius: 12px;
+    background-image: url(https://img.freepik.com/vector-gratis/escalas-tecno-fondo-placas-metal-negro-decoracion-traceria-abstraccion-oscura_79145-563.jpg?size=626&ext=jpg)
+}
